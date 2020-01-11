@@ -46,12 +46,14 @@ public class Main2 extends HttpServlet {
 		//以下為ArrayList的方法
 		
 		if (request.getParameter("type").equals("Sports")) {
-			Query2 query = new Query2(request.getParameter("keyword"));
+			Query query = new Query(request.getParameter("keyword"));
 			String[][] s = query.initialQuery(1);
 			request.setAttribute("q", s);
 		}
-		else if(request.getParameter("type").equals("Politics")) {
-			Query2 query = new Query2(request.getParameter("keyword"));
+		else if(request.
+				
+				getParameter("type").equals("Politics")) {
+			Query query = new Query(request.getParameter("keyword"));
 			String[][] s = query.initialQuery(2);
 			request.setAttribute("q", s);
 		}

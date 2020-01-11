@@ -25,7 +25,11 @@ public class WebNodeHeap {
 	public WebPage removeMax(){
 		//TODO: write remove minimal element logic here...
 		WebPage k = heap.poll();
-		System.out.println(k.name + " " + k.score);	
+		System.out.println(k.name + "\t" + k.score);
+		for(String each: k.exsistKeyword) {
+			System.out.print("#" + each + "  ");
+		}
+		System.out.println();
 		return k;
 	}
 	

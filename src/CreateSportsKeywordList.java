@@ -19,6 +19,12 @@ public class CreateSportsKeywordList {
 		Keyword k8 = new Keyword("奧運", 0, 1.0);
 		Keyword k9 = new Keyword("犯規", 0, 1.0);
 		Keyword k10 = new Keyword("冠軍", 0, 1.0);
+		Keyword k11 = new Keyword("NBA", 0, 1.0);
+		Keyword k12 = new Keyword("MLB", 0, 1.0);
+		Keyword k13 = new Keyword("球星", 0, 1.0);
+		Keyword k14 = new Keyword("球場", 0, 1.0);
+		Keyword k15 = new Keyword("裁判", 0, 1.0);
+		
 		kLst.add(k1);
 		kLst.add(k2);
 		kLst.add(k3);
@@ -29,6 +35,11 @@ public class CreateSportsKeywordList {
 		kLst.add(k8);
 		kLst.add(k9);
 		kLst.add(k10);
+		kLst.add(k11);
+		kLst.add(k12);
+		kLst.add(k13);
+		kLst.add(k14);
+		kLst.add(k15);
 		//kLst.outputCount(0);
 		return kLst;
 	}
